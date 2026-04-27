@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  background: #f0f4ff;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+h1 { color: #2d3a8c; }
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+}
