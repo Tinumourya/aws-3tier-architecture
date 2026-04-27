@@ -33,3 +33,9 @@ https://ERNKLDDRQV5ZL.cloudfront.net
 - Noncurrent versions move to Standard-IA after 30 days
 - Noncurrent versions deleted after 90 days
 - Incomplete multipart uploads deleted after 7 days
+
+## Architecture
+User → CloudFront (HTTPS + WAF) → Private S3 Bucket
+
+## Architecture diagram
+![Architecture](S3-Static-Website-Architecture.png)
